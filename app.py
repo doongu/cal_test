@@ -15,4 +15,4 @@ def asd():
     return render_template("answer.html", answer = int(num1) + int(num2))
 
 if __name__ == '__main__':
-    app.run( port=80, debug= True)
+    app.run( port=80, debug= True, host='0.0.0.0')
